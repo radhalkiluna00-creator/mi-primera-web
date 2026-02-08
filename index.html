@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mango Digital 15</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+  <div class="form-container">
+    <div class="card">
+
+      <!-- LOGIN -->
+      <form id="loginForm">
+        <h1 class="titulo">Iniciar sesión</h1>
+
+        <label>Nombre</label>
+        <input type="text" id="loginNombre">
+
+        <label>Contraseña</label>
+        <input type="password" id="loginPassword">
+
+        <button type="submit">Entrar</button>
+
+        <p class="switch">
+          ¿Usuario nuevo?
+          <span id="btnRegistro">Regístrate aquí</span>
+        </p>
+      </form>
+
+      <!-- REGISTRO -->
+      <form id="registerForm" style="display:none;">
+        <h1 class="titulo">Registro</h1>
+
+        <label>Nombre</label>
+        <input type="text" id="regNombre">
+
+        <label>Correo</label>
+        <input type="email" id="regCorreo">
+
+        <label>Contraseña</label>
+        <input type="password" id="regPassword">
+
+        <button type="submit">Crear cuenta</button>
+
+        <p class="switch">
+          ¿Ya tienes cuenta?
+          <span id="btnLogin">Inicia sesión</span>
+        </p>
+      </form>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h2>🌐 Mango Digital 15</h2>
+      <p>Formulario seguro y moderno</p>
+      <p class="copy">© 2026 Mango Digital 15</p>
+    </div>
+  </footer>
+
+  <!-- ENLACE AL JS -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
